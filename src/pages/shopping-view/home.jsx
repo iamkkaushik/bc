@@ -42,18 +42,27 @@ import ProductDetailsDialog from "@/components/shopping-view/product-details";
 import { getFeatureImages } from "@/store/common-slice";
 import bannerImage from "@/assets/banner-1.webp";
 // import bannerImage from "../../assets/banner.webp";
+import platesimg from "@/assets/platesimg.png";
+import glassesimg from "@/assets/glassesimg.png";
+import cupsimg from "@/assets/cupsimg.png";
+import cutleryimg from "@/assets/cutleryimg.png";
+import bowlsimg from "@/assets/bowlsimg.png";
+import containerimg from "@/assets/containerimg.png";
+import trayimg from "@/assets/trayimg.png";
+import tissuesimg from "@/assets/tissuesimg.png";
+import container2img from "@/assets/container2img.png";
 
 const categoriesWithIcon = [
-  { id: "plates", label: "Plates", icon: bannerImage},
-  { id: "glasses", label: "Glasses", icon: CloudLightning },
-  { id: "cups", label: "Cups", icon: CloudLightning },
-  { id: "bio spoons", label: "Cutlery", icon: CloudLightning },
-  { id: "boxes", label: "Boxes", icon: CloudLightning },
-  { id: "bio bowls", label: "Bowls", icon: CloudLightning },
-  { id: "glasses", label: "Dine in Containers", icon: CloudLightning },
-  { id: "plastic container", label: "Containers", icon: BabyIcon },
-  { id: "meal tray", label: "Trays", icon: WatchIcon },
-  { id: "tissues", label: "Tissues", icon: UmbrellaIcon },
+  { id: "plates", label: "Plates", icon: platesimg},
+  { id: "glasses", label: "Glasses", icon: glassesimg },
+  { id: "cups", label: "Cups", icon: cupsimg },
+  { id: "bio spoons", label: "Cutlery", icon: cutleryimg },
+  { id: "boxes", label: "Boxes", icon: container2img },
+  { id: "bio bowls", label: "Bowls", icon: bowlsimg },
+  { id: "glasses", label: "Dine in Containers", icon: containerimg },
+  { id: "plastic container", label: "Containers", icon: container2img },
+  { id: "meal tray", label: "Trays", icon: trayimg },
+  { id: "tissues", label: "Tissues", icon: tissuesimg },
 ];
 
 // const categoriesWithIcon = [
