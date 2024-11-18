@@ -274,10 +274,20 @@ export const shoppingViewHeaderMenuItems = [
   //   label: "Footwear",
   //   path: "/shop/listing",
   // },
+  // {
+  //   id: "accessories",
+  //   label: "Accessories",
+  //   path: "/shop/listing",
+  // },
   {
-    id: "accessories",
-    label: "Accessories",
-    path: "/shop/listing",
+    id: "aboutus",
+    label: "About Us",
+    path: "/aboutus",
+  },
+  {
+    id: "contact-us",
+    label: "Contact Us",
+    path: "/contactus",
   },
   {
     id: "search",
