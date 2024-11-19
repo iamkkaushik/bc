@@ -90,6 +90,7 @@ const ContactPage = () => {
                 type="text"
                 placeholder="Enter your name"
                 className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+                required
               />
             </div>
 
@@ -100,6 +101,7 @@ const ContactPage = () => {
                 type="text"
                 placeholder="Enter your phone number"
                 className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+                required
               />
             </div>
 
@@ -110,6 +112,7 @@ const ContactPage = () => {
                 type="email"
                 placeholder="Enter your email"
                 className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+                required
               />
             </div>
 
@@ -119,6 +122,7 @@ const ContactPage = () => {
               <textarea
                 placeholder="Enter your message"
                 className="w-full border border-gray-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-green-500 h-32"
+                required
               ></textarea>
             </div>
 
