@@ -3,7 +3,7 @@ import { capturePayment } from "@/store/shop/order-slice";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useLocation } from "react-router-dom";
-
+//import
 function PaypalReturnPage() {
   const dispatch = useDispatch();
   const location = useLocation();
