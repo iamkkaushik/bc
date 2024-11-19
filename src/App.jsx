@@ -24,7 +24,7 @@ import PaymentSuccessPage from "./pages/shopping-view/payment-success";
 import SearchProducts from "./pages/shopping-view/search";
 import AboutPage from "./pages/shopping-view/aboutus";
 import ContactPage from "./pages/shopping-view/contactus";
-
+// hello
 function App() {
   const { user, isAuthenticated, isLoading } = useSelector(
     (state) => state.auth
