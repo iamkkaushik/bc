@@ -53,57 +53,24 @@ import tissuesimg from "@/assets/tissuesimg.png";
 import container2img from "@/assets/container2img.png";
 
 const categoriesWithIcon = [
-  { id: "plates", label: "Plates", icon: platesimg},
-  { id: "glasses", label: "Glasses", icon: glassesimg },
-  { id: "cups", label: "Cups", icon: cupsimg },
+  { id: "buffet plates", label: "Plates", icon: platesimg},
+  { id: "wine glass", label: "Glasses", icon: glassesimg },
+  { id: "paper cups", label: "Cups", icon: cupsimg },
   { id: "bio spoons", label: "Cutlery", icon: cutleryimg },
-  { id: "boxes", label: "Boxes", icon: container2img },
+  { id: "meal tray", label: "Boxes", icon: container2img },
   { id: "bio bowls", label: "Bowls", icon: bowlsimg },
-  { id: "glasses", label: "Dine in Containers", icon: containerimg },
+  { id: "plastic container", label: "Dine in Containers", icon: containerimg },
   { id: "plastic container", label: "Containers", icon: container2img },
   { id: "meal tray", label: "Trays", icon: trayimg },
   { id: "tissues", label: "Tissues", icon: tissuesimg },
 ];
 
-// const categoriesWithIcon = [
-//   { 
-//     id: "plates", 
-//     label: "Plates", 
-//     icon: bannerImage,
-//     subcategories: ["Dinner Plates", "Salad Plates", "Dessert Plates", "Charger Plates"]
-//   },
-//   { 
-//     id: "glasses", 
-//     label: "Glasses", 
-//     icon: CloudLightning,
-//     subcategories: ["Wine Glasses", "Water Glasses", "Champagne Flutes", "Cocktail Glasses"]
-//   },
-//   { 
-//     id: "kids", 
-//     label: "Kids", 
-//     icon: BabyIcon,
-//     subcategories: ["Plates", "Cups", "Utensils", "Lunch Boxes"]
-//   },
-//   { 
-//     id: "accessories", 
-//     label: "Accessories", 
-//     icon: WatchIcon,
-//     subcategories: ["Napkin Rings", "Placemats", "Coasters", "Serving Utensils"]
-//   },
-//   { 
-//     id: "footwear", 
-//     label: "Footwear", 
-//     icon: UmbrellaIcon,
-//     subcategories: ["Kitchen Shoes", "Outdoor Dining Slippers", "Anti-Slip Socks"]
-//   },
-// ];
-
 const brandsWithIcon = [
+  { id: "bhadra", label: "Bhadra", icon: Store }, // shop brand
   { id: "sarda", label: "Sarda", icon: UtensilsCrossed }, // plates
   { id: "rr", label: "RR", icon: Box }, // containers
   { id: "lotus", label: "Lotus", icon: Box }, // containers
   { id: "sd", label: "S.D", icon: Package }, // boxes
-  { id: "bhadra", label: "Bhadra", icon: Store }, // shop brand
   { id: "chuk", label: "Chuk", icon: Leaf }, // bio products
   { id: "benxon", label: "Benxon", icon: GlassWater }, // transparent containers
   { id: "ecopack", label: "Ecopack", icon: Cake }, // muffin cups
@@ -112,23 +79,6 @@ const brandsWithIcon = [
   { id: "dove", label: "Dove", icon: CircleDollarSign }, // silver plates
   { id: "talyx", label: "Kalyx", icon: Box }, // plastic containers
 ];
-
-// const brandsWithIcon = [
-//   { id: "sarda", label: "Sarda", icon: UtensilsCrossed },
-//   { id: "rr", label: "RR", icon: WashingMachine },
-//   { id: "lotus", label: "Lotus", icon: ShoppingBasket },
-//   { id: "sd", label: "S.D", icon: Airplay },
-//   { id: "bhadra", label: "Bhadra", icon: Images },
-//   { id: "chuk", label: "Chuk", icon: Heater },
-//   { id: "benxon", label: "Benxon", icon: Heater },
-//   { id: "ecopack", label: "Ecopack", icon: Heater },
-//   // { id: "ecoware", label: "EcoWare", icon: Heater },
-//   { id: "pappco greenwre", label: "Pappco Greenware", icon: Heater },
-//   { id: "paras", label: "Paras EcoVision", icon: Heater },
-//   { id: "dove", label: "Dove", icon: Heater },
-//   { id: "talyx", label: "Kalyx", icon: Heater },
-//   // { id: "classic", label: "Classic", icon: Heater },
-// ];
 
 const materialWithIcon = [
   { id: "biodegradable", label: "Bio-Degradable", icon: Shirt },
