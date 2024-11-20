@@ -23,8 +23,9 @@ import UserCartWrapper from "./cart-wrapper";
 import { useEffect, useState } from "react";
 // import { fetchCartItems } from "@/store/shop/cart-slice";
 import { Label } from "../ui/label";
+import omimg from "@/assets/omlogo.webp";
 
-function MenuItems() {
+function MenuItems({ closeSheet }) {
   const navigate = useNavigate();
   const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -47,6 +48,8 @@ function MenuItems() {
           new URLSearchParams(`?category=${getCurrentMenuItem.id}`)
         )
       : navigate(getCurrentMenuItem.path);
+
+    if (closeSheet) closeSheet();
   }
 
   return (
@@ -134,15 +137,21 @@ function HeaderRightContent() {
 
 function ShoppingHeader() {
   const { isAuthenticated } = useSelector((state) => state.auth);
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background">
       <div className="flex h-16 items-center justify-between px-4 md:px-6">
         <Link to="/" className="flex items-center gap-2">
-          <HousePlug className="h-6 w-6" />
+       
+          <img
+        src={omimg}
+        alt="Ecommerce Logo"
+        className="h-8 w-auto"
+        />
           <span className="font-bold">Ecommerce</span>
         </Link>
-        <Sheet>
+        <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
           <SheetTrigger asChild>
             <Button variant="outline" size="icon" className="lg:hidden">
               <Menu className="h-6 w-6" />
@@ -150,7 +159,7 @@ function ShoppingHeader() {
             </Button>
           </SheetTrigger>
           <SheetContent side="left" className="w-full max-w-xs">
-            <MenuItems />
+            <MenuItems closeSheet={() => setIsSheetOpen(false)} />
             <HeaderRightContent />
           </SheetContent>
         </Sheet>
