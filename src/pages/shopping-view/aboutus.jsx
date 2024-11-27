@@ -92,7 +92,7 @@ const AboutPage = () => {
         <div className="text-lg text-gray-800 font-bold">
           <p>Name: Bhadra Cottage Industries</p>
           <p>Email: <a href="mailto:info@bhadracottage.com" className="text-green-500 hover:underline">info@bhadracottage.com</a></p>
-          <p>Phone: <a href="tel:+919876543210" className="text-green-500 hover:underline">+91 98854 53241</a></p>
+          <p>Phone: <a href="tel:+919876543210" className="text-green-500 hover:underline">+91 93918 59517</a></p>
         </div>
       </div>
     </div>
