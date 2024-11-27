@@ -43,7 +43,7 @@ const ContactPage = () => {
             <i className="fas fa-phone-alt"></i>
           </div>
           <h2 className="font-bold text-lg mt-2">CONTACT US</h2>
-          <p className="text-1xl mt-2">+91 98854 53241</p>
+          <p className="text-1xl mt-2">+91 93918 59517</p>
         </div>
 
         <div className="transition-transform transform hover:scale-105 hover:bg-gray-100 p-5 rounded-md shadow-lg">
