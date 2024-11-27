@@ -81,7 +81,7 @@ const brandsWithIcon = [
 ];
 
 const materialWithIcon = [
-  { id: "biodegradable", label: "Bio-Degradable", icon: Shirt },
+  { id: "biodegradable", label: "Bio-Degradable", icon: Leaf },
   { id: "conventionalplastic ", label: "Conventional Plastics ", icon: WashingMachine },
   { id: "wood", label: "Wood", icon: ShoppingBasket },
   { id: "aluminum", label: "Aluminum", icon: Airplay },
