@@ -149,7 +149,7 @@ function ShoppingHeader() {
         alt="Ecommerce Logo"
         className="h-8 w-auto"
         />
-          <span className="font-bold">Ecommerce</span>
+          <span className="font-bold">Bhadra Cottage</span>
         </Link>
         <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
           <SheetTrigger asChild>
