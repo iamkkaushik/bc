@@ -6,11 +6,24 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://www.bhadracottage.in/</loc>
   <lastmod>2024-11-16T12:01:45+00:00</lastmod>
 </url>
 
+<url>
+  <loc>https://www.bhadracottage.in/aboutus</loc>
+  <lastmod>2024-11-16T12:01:45+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://www.bhadracottage.in/contactus</loc>
+  <lastmod>2024-11-16T12:01:45+00:00</lastmod>
+</url>
+
+<url>
+  <loc>https://www.bhadracottage.in/shop/listing</loc>
+  <lastmod>2024-11-16T12:01:45+00:00</lastmod>
+</url>
 
 </urlset>
